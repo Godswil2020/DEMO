@@ -1,0 +1,205 @@
+/*
+Template Name: Crystal Interior
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+#navbar_sticky {
+    background-image: url(../img/TNT\ profile.png);
+    /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#ssticky {
+    background-image: url(../img/TNT\ \ why\ we\ are\ difference.png);
+    /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+        /* Makes the div span the full width of its parent */
+    height: 600px;
+        /* Set the height of the div; adjust as needed */
+}
+
+/*********************about****************/
+.center_about {
+background-image: url(../img/pexels-kamo11235-667838.jpg);
+background-position: center;
+}
+.overview_r {
+min-height:370px; 
+ }
+.team_1im1i1{
+background:#000000c4;
+padding-top:60%;
+display:none;
+ }
+.team_1im1i2 ul li a{
+background: #fff;
+border-radius:0;
+ }
+.team_1im1i2 ul li a i{
+color:#e9212e;
+ }
+.team_1im1i2 {
+display:none;
+background:#000000c4;
+ }
+.team_1im:hover .team_1im1i2{
+display:block; 
+ }
+.team_1im:hover .team_1im1i1{
+display:block; 
+ }
+
+.feature_3r .progress-bar {
+background: #F9F9F9;
+border-radius: 0;
+}
+.feature_3r .progress {
+background-color: #e9212e;
+height: 6px;
+overflow: hidden;
+border-radius: 0;
+}
+
+.center_team {
+background-image: url(../img/41.jpg);
+background-position: center;
+}
+/*********************about_end****************/
+
+
+@media screen and (max-width : 767px){
+.proj_h1r p{
+text-align:left; 
+ }
+.overview_r {
+text-align:center;
+padding:20px!important;
+min-height:auto; 
+ }
+.overview_r p{
+text-align:left;
+ }
+.overview_2i1 {
+text-align:center;
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.overview_2i1l{
+margin-bottom:10px; 
+ }
+.feature_3ri {
+text-align:center; 
+ }
+.feature_3ri p{
+text-align:left; 
+ }
+.feature_3l{
+margin-top:15px; 
+ }
+
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+.feature_3rir{
+text-align:left; 
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+.overview_l img{
+min-height:370px; 
+ }
+.overview_r{
+padding:20px!important;
+ }
+.overview_2i1l h1{
+padding:10px!important;
+font-size:24px; 
+ }
+.feature_3ril span{
+font-size:20px!important;  
+ }
+.feature_3l img{
+min-height:470px; 
+ }
+.team_1im1i2  ul li a{
+width:30px;
+height:30px;
+font-size:14px; 
+ }
+.team_1im1i2  ul li a i{
+line-height:30px;
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.overview_l img{
+min-height:370px; 
+ }
+.overview_r{
+padding:20px!important;
+ }
+.overview_2i1l h1{
+padding:15px!important;
+font-size:28px; 
+ }
+.feature_3l img{
+min-height:470px; 
+ }
+ }
+
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    #ssticky {
+        height: 500px;
+        /* Adjust height for medium screens */
+        width: calc(100% - 30px);
+        /* Adjust width for medium screens */
+        margin: 0 15px;
+        /* Adjust margin for medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    #ssticky {
+        height: 400px;
+        /* Adjust height for smaller screens */
+        width: calc(100% - 20px);
+        /* Adjust width for smaller screens */
+        margin: 0 10px;
+        /* Adjust margin for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    #ssticky {
+        height: 300px;
+        /* Adjust height for mobile screens */
+        width: calc(100% - 15px);
+        /* Adjust width for mobile screens */
+        margin: 0 5px;
+        /* Adjust margin for mobile screens */
+    }
+}
+
+@media (max-width: 576px) {
+    #ssticky {
+        height: 200px;
+        /* Adjust height for very small screens */
+        width: 100%;
+        /* Full width for very small screens */
+        margin: 0;
+        /* Remove margin for very small screens */
+    }
+}
+
+
